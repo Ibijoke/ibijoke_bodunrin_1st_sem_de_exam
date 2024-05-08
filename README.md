@@ -27,9 +27,9 @@ Open your terminal, change directory to the folder you want to clone the file to
 
 ### **How to run the code**<br>
 A. Open the python file in your preferred IDE- VSCode, PyCharm etc<br>
-B. To create sample expenses for the Expense class, create expense variables eg expense1 and pass two values- the title (which has to be a string datatype) and amount (float datatype) the print the expense.
-expense1 = Expense("Ice-cream and Popsicle", 25.0)
-print(expense1.to_dict())
+B. To create sample expenses for the Expense class, create expense variables eg expense1 and pass two values- the title (which has to be a string datatype) and amount (float datatype) the print the expense.<br>
+expense1 = Expense("Ice-cream and Popsicle", 25.0)<br>
+print(expense1.to_dict())<br>
 output will be {'id': '0ea4f904-c835-411c-92fa-d0d781e680e6', 'title': 'Ice-cream and Popsicle', 'amount': 25.0, 'created_at': '2023-12-24 18:10:37 UTC', 'updated_at': '2023-12-24 18:10:37 UTC'}<br>
 C. To create expenses that will be stored into the ExpenseDB, create a DB that will store your input, create sample expenses, use the .add_expense method to add them to the DB. To check if all your expenses have been added use:
 print("All expenses in the database:", expense_db.to_dict())
