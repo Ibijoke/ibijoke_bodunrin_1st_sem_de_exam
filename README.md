@@ -1,6 +1,6 @@
 ## THIS IS MY ALTSCHOOL FIRST SEMESTER EXAM PROJECT
 
-Project description:
+###**Project description:**
 This task was designed to test my comprehension of Object Oriented Programming in Python. 
 
 The first part involved creating a Class called Expense where I needed to first create the class and initialize it, then list all the attributes that each instance (object) of the class must possess. 
@@ -22,10 +22,10 @@ C. get_expense_by_id: retrieves an expense by using the expense ID, <br>
 D. get_expense_by_title: this can be used to retrieved expenses by title, <br>
 E. to_dict: returns a list of dictionaries representing expenses.<br>
 
-How to clone this project
+###**How to clone this project**
 Open your terminal, change directory to the folder you want to clone the file to. Enter the git clone command followed by the url for the file (this can be gotten from the github page, navigate to the clone or download button and copy the url). This command will clone this project to your computer locally. 
 
-How to run the code<br>
+###**How to run the code**<br>
 A. Open the python file in your preferred IDE- VSCode, PyCharm etc<br>
 B. To create sample expenses for the Expense class, create expense variables eg expense1 and pass two values- the title (which has to be a string datatype) and amount (float datatype) the print the expense.
 expense1 = Expense("Ice-cream and Popsicle", 25.0)
